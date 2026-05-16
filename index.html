@@ -448,6 +448,7 @@
     .flavor-oval-name { font-size: 24px; }
   }
 </style>
+<style id="v3-additions">.v3-fb-corner{position:fixed;top:16px;right:16px;z-index:100;width:36px;height:36px;border-radius:50%;background:#1877f2;color:#fff;display:flex;align-items:center;justify-content:center;font-family:Arial Black,sans-serif;font-size:20px;font-weight:900;text-decoration:none;box-shadow:0 2px 6px rgba(0,0,0,0.25);transition:transform .2s}.v3-fb-corner:hover{transform:scale(1.1)}.v3-markets{background:#faf6f0;padding:56px 20px;text-align:center;color:#1a1a1a}.v3-markets .eyebrow{font-size:11px;letter-spacing:4px;color:#8c6a35;margin-bottom:8px}.v3-markets h2{font-family:Cormorant Garamond,Georgia,serif;font-size:34px;margin-bottom:8px;font-weight:600}.v3-markets .lede{font-size:14px;color:#6b5530;margin-bottom:28px}.v3-market-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:780px;margin:0 auto}.v3-market-card{background:#fff;border-top:3px solid #cba472;padding:22px 20px;text-align:left;border-radius:4px;box-shadow:0 1px 4px rgba(0,0,0,0.05)}.v3-market-card h3{font-size:18px;margin-bottom:10px;font-family:Cormorant Garamond,Georgia,serif;font-weight:700}.v3-market-card p{font-size:13px;line-height:1.5;color:#444;margin:3px 0}.v3-market-card strong{color:#1a1a1a}.v3-markets .cta-line{margin-top:24px;font-size:14px;color:#6b5530;font-style:italic}.v3-markets .cta-line a{color:#8c6a35;font-weight:700;text-decoration:none}.v3-galena{background:linear-gradient(135deg,#8c6a35 0%,#6b5530 100%);color:#faf6f0;padding:56px 20px;text-align:center}.v3-galena .eyebrow{font-size:11px;letter-spacing:4px;color:#e5d4a8;margin-bottom:10px}.v3-galena h2{font-family:Cormorant Garamond,Georgia,serif;font-size:34px;margin-bottom:14px;font-weight:600}.v3-galena .sub{max-width:560px;margin:0 auto 32px;font-size:15px;line-height:1.55;color:#e5d4a8}.v3-galena .highlights{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:780px;margin:0 auto 28px;padding:0 8px}.v3-galena .h-card{background:rgba(255,255,255,0.08);border:1px solid rgba(229,212,168,0.3);padding:20px 14px;border-radius:4px}.v3-galena .h-date{font-size:11px;letter-spacing:2px;color:#e5d4a8;margin-bottom:8px;font-weight:700}.v3-galena .h-name{font-size:14px;font-weight:600;line-height:1.35}.v3-galena .more{background:rgba(0,0,0,0.18);border-radius:4px;padding:20px 28px;max-width:580px;margin:0 auto;text-align:left;font-size:13px}.v3-galena .more .more-h{display:block;font-size:11px;letter-spacing:2px;color:#e5d4a8;margin-bottom:12px;text-align:center;font-weight:700}.v3-galena .more li{list-style:none;padding:5px 0;opacity:.92}.v3-fb-footer{display:inline-flex;align-items:center;gap:8px;margin:14px 0;padding:8px 18px;background:rgba(203,164,114,0.12);border:1px solid #cba472;border-radius:20px;color:inherit;font-size:12px;letter-spacing:1px;text-transform:uppercase;text-decoration:none}.v3-fb-footer .ic{width:18px;height:18px;background:#1877f2;border-radius:3px;display:inline-flex;align-items:center;justify-content:center;color:#fff;font-family:Arial Black,sans-serif;font-weight:900;font-size:13px}@media (max-width:640px){.v3-market-grid{grid-template-columns:1fr}.v3-galena .highlights{grid-template-columns:1fr}}</style>
 </head>
 <body>
 
@@ -465,12 +466,25 @@
 </section>
 
 <!-- EMAIL CTA -->
-<section class="cta-section">
-  <div class="cta-box">
-    <div class="cta-eyebrow">— Stay Tuned —</div>
-    <div class="cta-headline">Newsletter Coming This Season</div>
-    <div class="cta-sub">Sign-ups open soon. In the meantime, find us in person at the Galena Farmers Market and Galena Territory Market.</div>
+<section class="v3-markets">
+  <div class="eyebrow">— FIND US —</div>
+  <h2>Markets</h2>
+  <p class="lede">Catch us in person every weekend through the season.</p>
+  <div class="v3-market-grid">
+    <div class="v3-market-card">
+      <h3>Galena Farmers Market</h3>
+      <p><strong>When:</strong> Saturdays · 8:00 AM – 12:00 PM</p>
+      <p><strong>Season:</strong> Mid-May through October</p>
+      <p><strong>Where:</strong> Market House Square · Galena, IL</p>
+    </div>
+    <div class="v3-market-card">
+      <h3>Galena Territory Market</h3>
+      <p><strong>When:</strong> Select weekends · 10:00 AM – 3:00 PM</p>
+      <p><strong>Season:</strong> Summer 2026</p>
+      <p><strong>Where:</strong> The Galena Territory · Galena, IL</p>
+    </div>
   </div>
+  <p class="cta-line">Want a custom holiday order or to chat? Call or text <a href="tel:+18152811635">(815) 281-1635</a>.</p>
 </section>
 
 <!-- FLAVORS -->
@@ -561,6 +575,25 @@
   </div>
 </section>
 
+<section class="v3-galena">
+  <div class="eyebrow">— PLAN YOUR VISIT —</div>
+  <h2>Galena Is the Whole Trip</h2>
+  <p class="sub">Historic Main Street. Bluffs over the Mississippi. Wine tastings, antique shops, and some of the busiest weekends of the year. Plan a Saturday and find us at the market — we'll save you a tray.</p>
+  <div class="highlights">
+    <div class="h-card"><div class="h-date">JULY 3–4, 2026</div><div class="h-name">Independence Day Parade &amp; Fireworks</div></div>
+    <div class="h-card"><div class="h-date">OCT 31, 2026</div><div class="h-name">Galena Halloween Parade Weekend</div></div>
+    <div class="h-card"><div class="h-date">DEC 5–6, 2026</div><div class="h-name">Galena Holiday Shoppes Kickoff</div></div>
+  </div>
+  <div class="more">
+    <span class="more-h">MORE COMING UP · DATES TO BE ANNOUNCED</span>
+    <ul>
+      <li>· Galena Country Fair — late summer</li>
+      <li>· Galena Beer Festival</li>
+      <li>· Nouveau Beaujolais Wine Weekend — November</li>
+      <li>· Night of the Luminaria — December</li>
+    </ul>
+  </div>
+</section>
 <footer>
   <div class="container">
     <div class="footer-logo">Khloe's Delights</div>
